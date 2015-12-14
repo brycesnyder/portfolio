@@ -1,0 +1,19 @@
+@mixin transition($time) {
+	-webkit-transition: all $time ease-in-out;
+    transition: all $time ease-in-out;
+}
+
+@mixin grayscale($percent) {
+    -webkit-filter: grayscale($percent);
+    -moz-filter: grayscale($percent);
+    -ms-filter: grayscale($percent);
+    -o-filter: grayscale($percent);
+    filter: grayscale($percent);
+}
+
+@mixin gradient($angle, $to, $from) {
+    background: $to;
+    background: -moz-linear-gradient($angle, $to 0%, $from 100%);
+    background: -webkit-linear-gradient($angle, $to 0%, $from 100%);
+    background: linear-gradient($angle, $to 0%, $from 100%);
+}

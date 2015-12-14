@@ -1,0 +1,5 @@
+app.controller('main', ['$scope', 'userData', function($scope, userData) {
+  userData.success(function(data) {
+    $scope.data = data; // name, title, description, icons
+  });
+}]);

@@ -1,0 +1,23 @@
+{
+  "name": "Bryce Snyder",
+  "title": "- Front End Developer -",
+  "description": "I'm a 25 year old Front End Developer from Kitchener, ON. My passions are to design, develop and take on challenging projects that create immense user experiences. Feel free to view some of my work or contact me from the links provided below.",
+  "message": "Made from 99% pure CSS. Not from concentrate.",
+  "icons": [
+    {
+      "name": "codepen",
+      "title": "Bryce Snyder Front End Developer on CodePen",
+      "url": "http://www.codepen.io/brycesnyder"
+    },
+    {
+      "name": "linkedin",
+      "title": "Bryce Snyder Front End Developer on LinkedIn",
+      "url": "https://ca.linkedin.com/in/brycesnyder"
+    },
+    {
+      "name": "twitter",
+      "title": "Bryce Snyder Front End Developer on Twitter",
+      "url": "https://twitter.com/brcsndr"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<section ng-controller="main">
+  <header>
+    <h1>{{ data.title }}</h1>
+    <h2>{{ data.name }}</h2>
+  </header>
+  <main>
+    <p>{{ data.description }}</p>
+  </main>
+  <footer>
+    <ul>
+      <li ng-repeat="icon in data.icons">
+        <social info="icon"></social>
+      </li>
+    </ul>
+  </footer>
+</section>
+<span>{{ data.message }}</span>
