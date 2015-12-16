@@ -1,8 +1,9 @@
 {
   "name": "Bryce Snyder",
-  "title": "- Front End Developer -",
+  "title": "Front End Developer",
   "description": "I'm a 25 year old Front End Developer from Kitchener, ON. My passions are designing, developing and taking on challenging projects that create immense end-user experiences. Feel free to view some of my front end sandbox work, or contact me from the links provided below.",
   "message": "Visuals from 99% pure CSS. Not from concentrate.",
+  "url": "bryce-snyder.com",
   "icons": [
     {
       "name": "codepen",

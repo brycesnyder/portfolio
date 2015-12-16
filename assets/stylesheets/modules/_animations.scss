@@ -1,0 +1,32 @@
+@mixin animate($animation, $time) {
+  -webkit-animation: $animation $time ease infinite;
+  -moz-animation: $animation $time ease infinite;
+  -o-animation: $animation $time ease infinite;
+  animation: $animation $time ease infinite;
+}
+
+@mixin transition($time) {
+	-webkit-transition: all $time ease-in-out;
+  transition: all $time ease-in-out;
+}
+
+@-webkit-keyframes gradient_transition {
+    0% { top: 0; left: 0; }
+    50% { top: -200%; left: -200%; }
+    100% { top: 0; left: 0; }
+}
+@-moz-keyframes gradient_transition {
+    0% { top: 0; left: 0; }
+    50% { top: -200%; left: -200%; }
+    100% { top: 0; left: 0; }
+}
+@-o-keyframes gradient_transition {
+    0% { top: 0; left: 0; }
+    50% { top: -200%; left: -200%; }
+    100% { top: 0; left: 0; }
+}
+@keyframes gradient_transition {
+    0% { top: 0; left: 0; }
+    50% { top: -200%; left: -200%; }
+    100% { top: 0; left: 0; }
+}
