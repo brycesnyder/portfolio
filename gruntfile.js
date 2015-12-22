@@ -1,8 +1,8 @@
-module.exports = function(grunt){
+module.exports = function(grunt) {
 
-  "use strict";
+  'use strict';
 
-  require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -31,7 +31,7 @@ module.exports = function(grunt){
           'tagname-lowercase': true, // Force tags to be lowercase
           'attr-lowercase': true, // Force attribute names to be lowercase e.g. <div id="header"> is invalid
           'attr-value-double-quotes': true, // Force attributes to have double quotes rather than single
-          'doctype-first': true, // Force the DOCTYPE declaration to come first in the document
+          'doctype-first': false, // Force the DOCTYPE declaration to come first in the document
           'spec-char-escape': true, // Force special characters to be escaped
           'id-unique': true, // Prevent using the same ID multiple times in a document
           'head-script-disabled': true, // Prevent script tags being loaded in the  for performance reasons
@@ -50,7 +50,7 @@ module.exports = function(grunt){
     uglify: {
       build: {
         files: {
-          'build/js/base.min.js': ['assets/js/base.js']
+          'build/js/base.min.js': ['assets/js/base.js', 'app/components/home/controller.js', 'app/components/home/service.js']
         }
       }
     },

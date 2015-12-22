@@ -1,0 +1,35 @@
+# Mac OS
+*.DS_Store
+
+# sass
+/assets/stylesheets/.sass-cache/
+.sass-cache/
+*.css.map
+
+
+# ignore themes except the example and the README
+/themes/*
+!/themes/cicer
+!/themes/README
+
+# Node Modules
+/build/node_modules/
+
+# nodejs
+/build/lib/
+/build/jsdocs/
+/npm-debug.log
+
+
+# Tests
+#/tests/phpunit.xml
+# Tests - auto-generated files
+#/data-autotest
+#/tests/coverage*
+#/tests/karma-coverage
+#/tests/autoconfig*
+#/tests/autotest*
+#/tests/data/lorem-copy.txt
+#/tests/data/testimage-copy.png
+#/config/config-autotest-backup.php
+#/config/autoconfig.php

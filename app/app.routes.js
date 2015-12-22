@@ -1,5 +1,8 @@
-app.config(function ($routeProvider) {
-  $routeProvider
+;(function() {
+  'use strict';
+
+  app.config(function($routeProvider) {
+    $routeProvider
     .when('/', {
       controller: 'main',
       templateUrl: 'app/components/home/view.html'
@@ -7,4 +10,6 @@ app.config(function ($routeProvider) {
     .otherwise({
       redirectTo: '/'
     });
-});
+  });
+
+})();
