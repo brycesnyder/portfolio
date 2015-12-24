@@ -43,14 +43,14 @@ module.exports = function(grunt) {
     sass: {
       build: {
         files: {
-          'build/css/application.css': 'assets/stylesheets/application.scss'
+          'build/css/application.css': 'build/assets/stylesheets/application.scss'
         }
       }
     },
     uglify: {
       build: {
         files: {
-          'build/js/base.min.js': ['assets/js/base.js', 'app/components/home/controller.js', 'app/components/home/service.js']
+          'build/js/base.min.js': ['assets/js/base.js']
         }
       }
     },
